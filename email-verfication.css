@@ -1,0 +1,168 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family:"inter",sans-serif;
+    max-width: 980px;
+    margin: auto;
+}
+
+.email-verfication-container {
+    width: 100%;
+    padding-inline: 50px;
+    padding-block: 60px;
+}
+
+#header-container {
+    background-color: #9f84bf;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo-content h1 {
+    font-size: 20px;
+}
+.header-logo {
+    height: 50px;
+    width: 50px;
+}
+.header-text h1 {
+    font-size: 20px;
+    padding-left: 150px;
+}
+.header-text h1 span {
+    font-size: 40px;
+}
+.header-image {
+    height: 150px;
+    width: 150px;
+    margin-right: 50px;
+}
+
+
+
+.verfication-name h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-block: 35px;
+}
+
+.verify-email-text p {
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: regular;
+}
+
+.verify-buttom {
+    text-align: center;
+}
+.verify-btn {
+    background-color: #8c52ff;
+    padding-block: 16px;
+    padding-inline: 45px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-block: 50px;
+    letter-spacing: 1px;
+}
+.verify-btn:hover {
+    cursor: pointer;
+}
+
+
+.ignore-text p {
+    font-size: 20px;
+}
+.ignore-para2 {
+    padding-top: 10px;
+}
+
+.regards-text {
+    padding-top: 50px;
+}
+.regards-text p {
+    font-size: 20px;
+}
+.regards-text h1 {
+    font-size: 20px;
+    color: #8c52ff;
+    padding-top: 8px;
+}
+
+.top-line {
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 25px;
+    gap: 20px;
+}
+
+.twitter-icon {
+    width: 50px;
+    height: 50px;
+}
+.twitter-icon:hover {
+    cursor: pointer;
+}
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+}
+.linkedin-icon:hover {
+    cursor: pointer;
+}
+.facebook-icon {
+    width: 50px;
+    height: 50px;
+}
+.facebook-icon:hover {
+    cursor: pointer;
+}
+.insta-icon {
+    width: 50px;
+    height: 50px;
+}
+.insta-icon:hover {
+    cursor: pointer;
+}
+.thread-icon {
+    width: 53px;
+    height: 48px;
+}
+.thread-icon:hover {
+    cursor: pointer;
+}
+
+.bottom-line {
+    border-bottom: 2px solid black;
+}
+
+.copyrights-text {
+    padding-block: 20px;
+}
+.copyrights-text p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
